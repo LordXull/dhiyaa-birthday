@@ -16,7 +16,7 @@ const CONFIG = {
     artist: "Hindia",
     caption: "This song always reminds me of us.",
     // Place actual audio file at assets/audio/song.mp3 if available
-    src: "assets/song.mp3"
+    src: "assets/photos/song.mp3"
   },
 
   letter: `
