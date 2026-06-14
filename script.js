@@ -110,13 +110,13 @@ const CONFIG = {
     {
       file: "hiking-date.jpeg",
       title: "The Hiking Date 🏔️",
-      date: "May 2025",
+      date: "May 2026",
       caption: "Reaching new heights, with you by my side"
     },
     {
       file: "mirror_pic.jpeg",
       title: "Just Us 💕",
-      date: "Febuary 2025",
+      date: "Febuary 2026",
       caption: "My favorite reflection — us"
     },
     {
@@ -131,19 +131,19 @@ const CONFIG = {
     {
       emoji: "🌟",
       milestone: "The Beginning",
-      date: "January 2024",
+      date: "January 2026",
       desc: "Two people, one unexpected connection, and a feeling that changed everything."
     },
     {
       emoji: "🌸",
       milestone: "First Flowers",
-      date: "January 2024",
+      date: "January 2026",
       desc: "The first gesture. The first sign that this was going to be something real."
     },
     {
       emoji: "☕",
       milestone: "First Date",
-      date: "January 2024",
+      date: "January 2026",
       desc: "Nervous smiles, soft conversation, and the quiet hope that it wouldn't be the last."
     },
     {
