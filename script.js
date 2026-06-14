@@ -21,25 +21,25 @@ const CONFIG = {
 
   letter: `
     <p>
-      It's been six months. Six months of learning each other, choosing each other, and somehow — through every storm — still finding our way back to each other. I've been sitting here trying to find the right words, and I think I finally have them.
+      It's been six months. Six months of learning each other, choosing each other, and somehow through every fight, we still finding our way back to each other. I've been sitting here trying to find the right words, and I think I finally have them.
     </p>
     <p>
-      I won't lie and say it was always easy. We had our misunderstandings. Our moments of silence that felt heavier than they should. Moments where I know you didn't know what I was thinking, and I didn't know how to tell you. But every single time, we found a way through it — together. And that's what matters to me most.
+      I won't lie and say it was always easy. We had our misunderstandings. Our moments of silence that felt heavier than they should. Moments where I know you didn't know what I was thinking, and I didn't know how to tell you. But every single time, we found a way through it together. And that's what matters to me most.
     </p>
     <p>
-      You know what I love most about you? How unafraid you are to just be yourself with me. That clingy side of you that messages me when you miss me, that baby voice that comes out when you're sleepy, the way you turn into the smallest, softest person when you're with me — I love every single bit of it. Please never change that. Please never hide that from me.
+      You know what I love most about you? That clingy side of you that messages me when you miss me, that baby voice that comes out when you're sleepy, the way you turn into the smallest, softest person when you're with me, I love every single bit of it. Please never change that. Please never hide that from me.
     </p>
     <p>
-      You told me once that you were scared of being too much. Dhiyaa, you could never be too much for me. If anything, you are exactly enough — exactly what I didn't know I was looking for until you were standing right in front of me.
+      You told me once that you were scared of being too much. Dhiyaa, you could never be too much for me. If anything, you are exactly enough, exactly what I didn't know I was looking for until you were standing right in front of me.
     </p>
     <p>
-      I've seen you cry. I've seen your face when something hurts you, and it breaks something inside me every single time. So I'm making you a quiet promise today: I want to be the reason you smile more than you cry. I want to be the person who shows up — not perfectly, but genuinely — every single time.
+      I've seen you cry. I've seen your face when something hurts you, and it breaks something inside me every single time. So I'm making you a quiet promise today: I want to be the reason you smile more than you cry. I want to be the person who shows up not perfectly, but genuinely every single time.
     </p>
     <p>
       This birthday feels different to me. Not just because you're turning 23, but because this is the first birthday I get to celebrate knowing you as mine. And I want you to know that whatever this next chapter holds, I want to walk through it with you.
     </p>
     <p>
-      Today, this little digital corner of the world is yours. Just for you. Because you deserve to be celebrated — not just on the big moments, but in the quiet everyday ones too.
+      Today, this little digital corner of the world is yours. Just for you. Because you deserve to be celebrated not just on the big moments, but in the quiet everyday ones too.
     </p>
     <p>
       Happy birthday, Dhiyaa. I'm so glad you exist.
@@ -51,13 +51,13 @@ const CONFIG = {
       On this, your 23rd birthday, I want you to know something simple and true: you deserve everything good that life can give you.
     </p>
     <p>
-      I wish you a year filled with the kind of happiness that settles deep — not the fleeting kind, but the kind that stays with you even on the quiet Tuesday evenings. I wish you dreams that feel close enough to touch, and the courage to reach for them anyway.
+      I wish you a year filled with the kind of happiness that settles deep not the fleeting kind, but the kind that stays with you even on the quiet evenings. I wish you dreams that feel close enough to touch, and the courage to reach for them anyway.
     </p>
     <p>
-      I wish you the freedom to just be — unapologetically, fully, beautifully you. The way you are when you're with me and you forget to be anything other than yourself. That version of you is my favorite.
+      I wish you always happy and can give out beautiful smile. The way you are when you're with me and you forget to be anything other than yourself. That version of you is my favorite.
     </p>
     <p>
-      These past six months have shown me just a glimpse of who you are, and I already know — you are someone worth standing next to for a very long time. So here's to you, Dhiyaa. To your 23rd year. May it be as bright and as warm as you've made mine.
+      These past six months have shown me just a glimpse of who you are, and I already know you are someone worth standing next to for a very long time. So here's to you, Dhiyaa. To your 23rd year. May it be as bright and as warm as you've made mine.
     </p>
     <p>
       I'm so proud of you. And I'm so lucky to be here cheering you on.
@@ -78,7 +78,7 @@ const CONFIG = {
       Thank you for being you. Thank you for letting me in. I'll take good care of what you've trusted me with.
     </p>
     <p>
-      Happy Birthday, sayang. 🌸
+      Happy Birthday, baby. 🌸
     </p>
   `,
 
@@ -86,43 +86,43 @@ const CONFIG = {
     {
       file: "first_flowers.jpeg",
       title: "The First Flowers 🌸",
-      date: "December 2024",
+      date: "January 2026",
       caption: "The beginning of everything beautiful"
     },
     {
       file: "first_date.jpeg",
       title: "Our First Date ✨",
-      date: "December 2024",
+      date: "January 2026",
       caption: "Nervous hearts & the best kind of butterflies"
     },
     {
       file: "iftar-date.jpeg",
       title: "Iftar Together 🌙",
-      date: "March 2025",
+      date: "March 2026",
       caption: "Sharing our first Ramadan moments"
     },
     {
       file: "kl-date.jpeg",
       title: "KL Adventures 🏙️",
-      date: "2025",
+      date: "April 2026",
       caption: "Getting lost in the city together"
     },
     {
       file: "hiking-date.jpeg",
       title: "The Hiking Date 🏔️",
-      date: "2025",
+      date: "May 2025",
       caption: "Reaching new heights, with you by my side"
     },
     {
       file: "mirror_pic.jpeg",
       title: "Just Us 💕",
-      date: "2025",
+      date: "Febuary 2025",
       caption: "My favorite reflection — us"
     },
     {
       file: "birthday_celeb.jpeg",
       title: "Birthday Celebration 🎂",
-      date: "June 2026",
+      date: "January 2026",
       caption: "Celebrating you, forever my favorite person"
     }
   ],
@@ -131,49 +131,49 @@ const CONFIG = {
     {
       emoji: "🌟",
       milestone: "The Beginning",
-      date: "December 2024",
+      date: "January 2024",
       desc: "Two people, one unexpected connection, and a feeling that changed everything."
     },
     {
       emoji: "🌸",
       milestone: "First Flowers",
-      date: "December 2024",
+      date: "January 2024",
       desc: "The first gesture. The first sign that this was going to be something real."
     },
     {
       emoji: "☕",
       milestone: "First Date",
-      date: "December 2024",
+      date: "January 2024",
       desc: "Nervous smiles, soft conversation, and the quiet hope that it wouldn't be the last."
     },
     {
       emoji: "🌙",
       milestone: "Late Night Calls",
-      date: "Early 2025",
+      date: "Early 2026",
       desc: "Staying up too late just because neither of us wanted to say goodnight."
     },
     {
       emoji: "✈️",
       milestone: "Adventures Together",
-      date: "2025",
+      date: "2026",
       desc: "From city streets to mountain trails — every place felt better beside you."
     },
     {
       emoji: "💬",
       milestone: "Learning Each Other",
-      date: "2025",
+      date: "2026",
       desc: "The misunderstandings. The making up. The choosing each other, again and again."
     },
     {
       emoji: "💞",
       milestone: "Six Months Together",
-      date: "June 2025",
+      date: "June 2026",
       desc: "Half a year of growing together. The best kind of chapter I've ever written."
     },
     {
       emoji: "🎂",
       milestone: "Dhiyaa Turns 23",
-      date: "14 June 2026",
+      date: "15 June 2026",
       desc: "Today. This moment. I'm so glad I get to celebrate you."
     }
   ]
