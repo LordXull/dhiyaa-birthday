@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Happy 23rd Birthday, Dhiyaa 🌸</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Dancing+Script:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SCREEN 1: LOADING -->
+  <div id="screen-loading" class="screen screen-loading active">
+    <div class="loading-floral-corners">
+      <div class="floral-corner tl"></div>
+      <div class="floral-corner tr"></div>
+      <div class="floral-corner bl"></div>
+      <div class="floral-corner br"></div>
+    </div>
+    <div class="loading-center">
+      <div class="loading-emblem">
+        <div class="emblem-glow"></div>
+        <svg class="emblem-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Lily petals -->
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f7d7df" opacity="0.9"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f7d7df" opacity="0.9" transform="rotate(45 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#e8a3b9" opacity="0.8" transform="rotate(90 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#e8a3b9" opacity="0.8" transform="rotate(135 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f5d8c6" opacity="0.85" transform="rotate(180 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f5d8c6" opacity="0.85" transform="rotate(225 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f7d7df" opacity="0.9" transform="rotate(270 60 60)"/>
+          <ellipse cx="60" cy="30" rx="8" ry="22" fill="#f7d7df" opacity="0.9" transform="rotate(315 60 60)"/>
+          <!-- Gold center -->
+          <circle cx="60" cy="60" r="14" fill="#c8a46b" opacity="0.9"/>
+          <circle cx="60" cy="60" r="8" fill="#f7f2e8"/>
+          <!-- Stamens -->
+          <line x1="60" y1="46" x2="60" y2="52" stroke="#c8a46b" stroke-width="1.5"/>
+          <circle cx="60" cy="45" r="2" fill="#c8a46b"/>
+          <line x1="60" y1="74" x2="60" y2="68" stroke="#c8a46b" stroke-width="1.5"/>
+          <circle cx="60" cy="75" r="2" fill="#c8a46b"/>
+          <line x1="46" y1="60" x2="52" y2="60" stroke="#c8a46b" stroke-width="1.5"/>
+          <circle cx="45" cy="60" r="2" fill="#c8a46b"/>
+          <line x1="74" y1="60" x2="68" y2="60" stroke="#c8a46b" stroke-width="1.5"/>
+          <circle cx="75" cy="60" r="2" fill="#c8a46b"/>
+        </svg>
+      </div>
+      <p class="loading-text">A little surprise is blooming...</p>
+      <div class="loading-dots">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <div class="floating-petals-loading"></div>
+  </div>
+
+  <!-- SCREEN 2: LOCK -->
+  <div id="screen-lock" class="screen screen-lock">
+    <div class="lock-bg-flowers"></div>
+    <div class="lock-container">
+      <div class="lock-floral-frame">
+        <div class="floral-frame-inner">
+          <div class="lock-heart">
+            <svg viewBox="0 0 60 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30 52 C30 52 5 35 5 18 C5 10 11 4 18 4 C22 4 26 6 30 10 C34 6 38 4 42 4 C49 4 55 10 55 18 C55 35 30 52 30 52Z" fill="url(#goldGrad)" stroke="#c8a46b" stroke-width="1"/>
+              <defs>
+                <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#e8d5a0"/>
+                  <stop offset="50%" stop-color="#c8a46b"/>
+                  <stop offset="100%" stop-color="#a8843b"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <p class="lock-from">From: <span id="lock-sender">Dzul Jasni</span></p>
+          <p class="lock-for">For: <span id="lock-recipient">Dhiyaa Shofiyyah</span></p>
+          <h2 class="lock-title">A Little Secret Awaits...</h2>
+          <div class="passcode-display">
+            <div class="passcode-dot" id="dot-0"></div>
+            <div class="passcode-dot" id="dot-1"></div>
+            <div class="passcode-dot" id="dot-2"></div>
+            <div class="passcode-dot" id="dot-3"></div>
+          </div>
+          <p class="passcode-hint" id="passcode-hint">A special date we share ✨</p>
+          <div class="keypad" id="keypad">
+            <button class="key" data-key="1">1</button>
+            <button class="key" data-key="2">2</button>
+            <button class="key" data-key="3">3</button>
+            <button class="key" data-key="4">4</button>
+            <button class="key" data-key="5">5</button>
+            <button class="key" data-key="6">6</button>
+            <button class="key" data-key="7">7</button>
+            <button class="key" data-key="8">8</button>
+            <button class="key" data-key="9">9</button>
+            <button class="key key-empty"></button>
+            <button class="key" data-key="0">0</button>
+            <button class="key key-back" id="key-back">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12H9m0 0l4-4m-4 4l4 4M3 12a9 9 0 1118 0A9 9 0 013 12z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: FLORAL TRANSITION -->
+  <div id="screen-transition" class="screen screen-transition">
+    <div class="floral-curtain" id="floral-curtain">
+      <div class="curtain-left"></div>
+      <div class="curtain-right"></div>
+      <div class="curtain-flowers"></div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT (unlocked) -->
+  <div id="main-content" class="main-content hidden">
+
+    <!-- Floating petals container -->
+    <div class="petals-container" id="petals-container"></div>
+
+    <!-- SCREEN 4: HERO -->
+    <section class="section section-hero" id="section-hero">
+      <div class="hero-floral-bg"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">✨ 14th June 2026 ✨</p>
+        <h1 class="hero-title">Happy<br/>Birthday</h1>
+        <div class="hero-heart-row">
+          <span class="hero-heart beating">♥</span>
+        </div>
+        <h2 class="hero-subtitle" id="hero-subtitle">Dhiyaa Turns 23</h2>
+        <p class="hero-body">Today is all about you.</p>
+        <div class="scroll-indicator">
+          <span>Scroll to continue</span>
+          <div class="scroll-chevron">&#8964;</div>
+        </div>
+      </div>
+      <div class="hero-petals"></div>
+    </section>
+
+    <!-- SCREEN 5: OUR SONG -->
+    <section class="section section-song" id="section-song">
+      <div class="section-floral-header"></div>
+      <div class="section-label">Our Song</div>
+      <div class="song-player">
+        <div class="album-art-wrapper">
+          <div class="album-art-ring"></div>
+          <img class="album-art" id="album-art" src="assets/photos/her.jpeg" alt="Album Art" />
+          <div class="album-art-overlay"></div>
+        </div>
+        <p class="song-caption" id="song-caption">"This song always reminds me of us."</p>
+        <div class="song-title-block">
+          <h3 class="song-name" id="song-name">Everything U Are</h3>
+          <p class="song-artist" id="song-artist">Hindia</p>
+        </div>
+        <div class="player-controls">
+          <div class="progress-bar-wrap">
+            <span class="time-current" id="time-current">0:00</span>
+            <div class="progress-bar" id="progress-bar">
+              <div class="progress-fill" id="progress-fill"></div>
+              <div class="progress-thumb" id="progress-thumb"></div>
+            </div>
+            <span class="time-total" id="time-total">0:00</span>
+          </div>
+          <div class="player-buttons">
+            <button class="ctrl-btn ctrl-prev" id="ctrl-prev">⏮</button>
+            <button class="ctrl-btn ctrl-play" id="ctrl-play">
+              <span class="play-icon">▶</span>
+            </button>
+            <button class="ctrl-btn ctrl-next" id="ctrl-next">⏭</button>
+          </div>
+        </div>
+        <audio id="audio-player" src="" preload="metadata"></audio>
+      </div>
+      <div class="section-floral-footer"></div>
+    </section>
+
+    <!-- SCREEN 6: LETTER -->
+    <section class="section section-letter" id="section-letter">
+      <div class="section-label">A Letter From My Heart</div>
+      <div class="letter-wrapper" id="letter-wrapper">
+        <!-- Closed envelope -->
+        <div class="envelope" id="envelope">
+          <div class="envelope-body">
+            <div class="envelope-flap" id="env-flap"></div>
+            <div class="envelope-front">
+              <div class="wax-seal" id="wax-seal">
+                <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="25" cy="25" r="23" fill="url(#sealGrad)" stroke="#a8843b" stroke-width="1.5"/>
+                  <path d="M25 14 C25 14 19 20 19 26 C19 30.4 21.6 34 25 36 C28.4 34 31 30.4 31 26 C31 20 25 14 25 14Z" fill="#f7f2e8" opacity="0.7"/>
+                  <text x="25" y="44" text-anchor="middle" font-size="8" fill="#f7f2e8" font-family="serif">D❤D</text>
+                  <defs>
+                    <linearGradient id="sealGrad" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#e8d5a0"/>
+                      <stop offset="100%" stop-color="#a8843b"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <p class="envelope-tap-hint">Tap to Open My Letter</p>
+        </div>
+        <!-- Letter content (hidden until opened) -->
+        <div class="letter-paper" id="letter-paper">
+          <div class="letter-inner">
+            <div class="letter-floral-corner lt"></div>
+            <div class="letter-floral-corner rt"></div>
+            <p class="letter-salutation" id="letter-salutation">My Dearest Dhiyaa,</p>
+            <div class="letter-body" id="letter-body"></div>
+            <p class="letter-closing">Forever Yours,</p>
+            <p class="letter-signature">Dzul ❤️</p>
+            <div class="letter-floral-divider">❧ ❦ ❧</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREEN 7: MEMORIES -->
+    <section class="section section-memories" id="section-memories">
+      <div class="section-label">Our Favorite Memories</div>
+      <div class="carousel-wrapper">
+        <button class="carousel-arrow arrow-left" id="arrow-left">&#8249;</button>
+        <div class="carousel-track" id="carousel-track">
+          <!-- Polaroids injected by JS -->
+        </div>
+        <button class="carousel-arrow arrow-right" id="arrow-right">&#8250;</button>
+      </div>
+      <div class="carousel-dots" id="carousel-dots"></div>
+      <div class="memory-surprise" id="memory-surprise">
+        <p class="surprise-front" id="surprise-front">💌 My favorite memory isn't in this gallery.</p>
+        <p class="surprise-reveal hidden" id="surprise-reveal">"It's every moment I get to spend with you ❤️"</p>
+      </div>
+    </section>
+
+    <!-- SCREEN 8: TIMELINE -->
+    <section class="section section-timeline" id="section-timeline">
+      <div class="section-label">Our Journey Together</div>
+      <div class="timeline-wrapper">
+        <div class="timeline-line" id="timeline-line"><div class="timeline-line-fill" id="timeline-line-fill"></div></div>
+        <div class="timeline-items" id="timeline-items">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREEN 9: BIRTHDAY WISHES -->
+    <section class="section section-wishes" id="section-wishes">
+      <div class="section-label">My Birthday Wishes For You</div>
+      <div class="wishes-card">
+        <div class="wishes-floral-top"></div>
+        <p class="wishes-salutation">My Dearest,</p>
+        <div class="wishes-body" id="wishes-body"></div>
+        <p class="wishes-closing">Happy Birthday, my love.</p>
+        <div class="wishes-heart-row">💕</div>
+        <div class="wishes-floral-bottom"></div>
+      </div>
+    </section>
+
+    <!-- SCREEN 10: ONE LAST THING (floating button + modal) -->
+    <div class="floating-btn-wrap">
+      <button class="floating-btn" id="floating-btn">
+        <span>🌸</span>
+      </button>
+    </div>
+
+    <div class="modal-overlay hidden" id="modal-overlay">
+      <div class="modal-card" id="modal-card">
+        <button class="modal-close" id="modal-close">✕</button>
+        <div class="modal-floral-top"></div>
+        <div class="modal-photo-ring">
+          <img src="assets/photos/her.jpeg" alt="Dhiyaa" class="modal-photo" />
+        </div>
+        <h3 class="modal-title">One Last Thing...</h3>
+        <div class="modal-body" id="modal-body"></div>
+        <p class="modal-date">15.06 ❤️</p>
+        <p class="modal-script">Always & Forever</p>
+        <div class="modal-floral-bottom"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>Made with ♥ by Dzul, just for you.</p>
+      <p class="footer-name">Happy 23rd, Dhiyaa Shofiyyah 🌸</p>
+    </footer>
+
+  </div><!-- end main-content -->
+
+  <script src="script.js"></script>
+</body>
+</html>
